@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.min.css" />
+    <title>document</title>
+</head>
+
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-outline"></div>
+
+    <div class="wrapper" style="background-image:url(img/wrapper-bg.jpg)">
+        <div class="logo">
+            <a class="logo-link cursor-hover link" href="#">
+                <img class="logo-img" src="img/logo.svg" alt="logo">
+            </a>
+        </div>
+        
+        <main class="main-slider main">
+            
+            <div class="main-slider__wrapper">
+                
+                <button class="burger cursor-hover link">
+                    <div class="burger__inner">
+                        <div class="burger__center">
+                            <span class="burger__center-border"></span>
+                            <div class="burger__dots">
+                                <span class="burger__center-dots top-dot"></span>
+                                <span class="burger__center-dots bottom-dot"></span>
+                                <span class="burger__center-dots left-dot"></span>
+                                <span class="burger__center-dots right-dot"></span>
+                            </div>
+                        </div>
+                    </div>
+                </button>
+
+                <nav class="nav-menu nowheel">
+                    <ul class="nav-menu__items">
+                        <li class="nav-menu__item">
+                            <a class="nav-menu__link cursor-hover link" data-burger=".home-burger" data-id="home" href="#">Home</a>
+                        </li>
+                        <li class="nav-menu__item">
+                            <a class="nav-menu__link cursor-hover link" data-burger=".about-burger" data-id="about"  href="#">about</a>
+                        </li>
+                        <li class="nav-menu__item">
+                            <a class="nav-menu__link  cursor-hover link" data-burger=".advantages-burger" data-id="advantages" href="#">advantages</a>
+                        </li>
+                    </ul>
+                </nav>
+                
+                <div class="about-screen__clone about-burger"></div>
+                <div class="advantages-screen__clone advantages-burger"></div>
+                
+                    <div id="home" class="main-slider__screen home-screen home-burger">
+                        <div class="home-screen__content main-screen__content">
+                            
+    
+                            <div class="home-slider">
+                                <div class="home-slider__wrapper">
+                                    <div class="home-slider__slide slide">
+                                        <div class="slide__content">
+                                            <div class="slide__info">
+                                                <div class="slide__title-box" data-swiper-parallax="-100">
+                                                    <h1 class="slide__title title">family world tourism</h1>
+                                                    <span class="slide__title-bg bg-yellow"></span>
+                                                </div>
+                                                <div class="slide__subtitle-box" data-swiper-parallax="-100">
+                                                    <p class="slide__subtitle subtitle">international tourism for everyone</p>
+                                                    <span class="slide__subtitle-bg bg-yellow"></span>
+                                                </div>
+                                                <div class="slide__button "data-swiper-parallax="-100">
+                                                    <div class="slide__button-inner cursor-hover link">
+                                                        <a class="slide__button-link"  href="#">see more</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="slide__image" data-swiper-parallax="25%">
+                                                <picture><source srcset="img/home/main-bg.webp" type="image/webp"><img class="slide__image-img" src="img/home/main-bg.jpg" alt="bg"></picture>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="home-slider__slide slide">
+                                        <div class="slide__content">
+                                            <div class="slide__info">
+                                                <div class="slide__title-box" data-swiper-parallax="-100">
+                                                    <h1 class="slide__title title">family world tourism</h1>
+                                                    <span class="slide__title-bg bg-blue"></span>
+                                                </div>
+                                                <div class="slide__subtitle-box" data-swiper-parallax="-100">
+                                                    <p class="slide__subtitle subtitle">international tourism for everyone</p>
+                                                    <span class="slide__subtitle-bg bg-blue"></span>
+                                                </div>
+                                                <div class="slide__button" data-swiper-parallax="-100">
+                                                    <div class="slide__button-inner cursor-hover link">
+                                                        <a class="slide__button-link"  href="#">see more</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="slide__image">
+                                                <picture><source data-srcset="img/home/slide-2.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="slide__image-img" data-swiper-parallax="25%" data-src="img/home/slide-2.jpg" alt="bg"></picture>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="home-slider__slide slide">
+                                        <div class="slide__content">
+                                            <div class="slide__info">
+                                                <div class="slide__title-box" data-swiper-parallax="-100">
+                                                    <h1 class="slide__title title">family world tourism</h1>
+                                                    <span class="slide__title-bg bg-orange"></span>
+                                                </div>
+                                                <div class="slide__subtitle-box" data-swiper-parallax="-100">
+                                                    <p class="slide__subtitle subtitle">international tourism for everyone</p>
+                                                    <span class="slide__subtitle-bg bg-orange"></span>
+                                                </div>
+                                                <div class="slide__button" data-swiper-parallax="-100">
+                                                    <div class="slide__button-inner cursor-hover link">
+                                                        <a class="slide__button-link"  href="#">see more</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="slide__image">
+                                                <picture><source data-srcset="img/home/slide-3.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="slide__image-img" data-swiper-parallax="25%" data-src="img/home/slide-3.jpg" alt="bg"></picture>
+                                            </div>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                                <div class="home-slider__buttons">
+                                    <div class="home-slider__button-prev cursor-hover link"></div>
+                                    <div class="home-slider__button-next cursor-hover link"></div>
+                                </div>
+                                <div class="home-slider__counter counter">
+                                        <div class="counter__pagination">
+                                            <span class="counter__current">1</span>
+                                            <span class="counter__stick">/</span>
+                                            <span class="counter__total">3</span>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+
+                    <div id="about" class="main-slider__screen about-screen about-burger">
+                        <div class="about-screen__content main-screen__content">
+                            <div class="about-screen__bg">
+                                <picture><source data-srcset="img/about/about-bg.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="about-screen__bg-img" data-swiper-parallax="25%" data-src="img/about/about-bg.jpg" alt="bg"></picture>
+                            </div>
+                            <div class="about-screen__boxes">
+                                <div class="about-screen__box about-box box-one" data-swiper-parallax="-100">
+                                    <div class="about-box__show">
+                                        <div class="about-box__image">
+                                            <picture><source data-srcset="img/about/photo-2.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="about-box__image-img" data-src="img/about/photo-2.jpg" alt="img"></picture>
+                                            <span id="tippy-3" class="box-two__tippy tippy  cursor-hover link"></span>
+                                        </div>
+                                    </div>
+                                    <div class="about-box__info nowheel">
+                                        <h3 class="about-box__title">Lorem ipsum, elit sit amet consectetur adipisicing elit. Lorem ipsum, elit sit amet consectetur adipisicing elit, Lorem ipsum, elit sit amet consectetur adipisicing elit. Lorem ipsum, elit sit amet consectetur adipisicing elit</h3>
+                                    </div>
+                                </div>
+                                <div class="about-screen__box about-box box-two" data-swiper-parallax="-100">
+                                    <div class="about-box__show">
+                                        <div class="about-box__image">
+                                            <picture><source srcset="img/about/photo-1.webp" type="image/webp"><img class="about-box__image-img" src="img/about/photo-1.jpg" alt="img"></picture>
+                                            <span id="tippy-1" class="box-one__tippy tippy cursor-hover link"></span>
+                                            <span id="tippy-2" class="box-one__tippy tippy  cursor-hover link"></span>
+                                        </div>
+                                    </div>
+                                    <div class="about-box__info nowheel">
+                                        <h3 class="about-box__title">Lorem ipsum, elit sit amet consectetur adipisicing elit.</h3>
+                                    </div>
+                                </div>
+                                <div class="about-screen__box about-box box-three" data-swiper-parallax="-100">
+                                    <div class="about-box__show">
+                                        <div class="about-box__image">
+                                            <picture><source data-srcset="img/about/photo-3.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="about-box__image-img" data-src="img/about/photo-3.jpg" alt="img"></picture>
+                                            <span id="tippy-4" class="box-three__tippy tippy cursor-hover link"></span>
+                                            <span id="tippy-5" class="box-three__tippy tippy cursor-hover link"></span>
+                                            <span id="tippy-6" class="box-three__tippy tippy cursor-hover link"></span>
+                                        </div>
+                                    </div>
+                                    <div class="about-box__info nowheel">
+                                        <h3 class="about-box__title">Lorem ipsum, elit sit amet consectetur adipisicing elit.</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="advantages" class="main-slider__screen advantages-screen">
+                        <div class="advantages-screen__content main-screen__content">
+    
+                            <div class="advantages-screen__bg">
+                                <picture><source data-srcset="img/advantages/advantages-bg.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="advantages-screen__bg-img" data-swiper-parallax="25%" data-src="img/advantages/advantages-bg.jpg" alt="bg"></picture>
+                            </div>
+    
+                             <div class="advantages-screen__spoiler advantages-spoiler">
+                                 <div class="advantages-spoiler__body" data-spoilers data-one-spoiler>
+                                     <div class="advantages-spoiler__item" data-swiper-parallax="-100">
+                                         <div class="advantages-spoiler__top" style="background-image: url('img/advantages/tab-photo-1.jpg');">
+                                        </div>
+                                        <button class="advantages-spoiler__title advantages-spoiler__button  cursor-hover link" type="button" tabindex="-1" data-spoiler></button>
+                                         <div class="advantages-spoiler__content">
+                                             <p class="advantages-spoiler__text nowheel">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum unde sit iusto dolorum, nisi ut dolores adipisci corrupti in, pariatur beatae possimus aliquam maxime illum ullam odit animi vel perspiciatis.
+                                                    Id vel voluptates tempore ipsum quis similique at dicta, facilis est ea quasi earum adipisci, quae sequi laudantium ad pariatur perspiciatis! Adipisci eaque, neque incidunt deleniti quod autem dignissimos qui.
+                                                    Omnis delectus quasi repellendus accusamus provident cupiditate, ducimus, nisi aperiam nulla sit fugit perspiciatis quia dignissimos facilis repudiandae unde quos labore minima esse iure vitae repellat a, placeat ad! Repudiandae!
+                                            </p>
+                                         </div>
+                                    </div>
+                                     <div class="advantages-spoiler__item" data-swiper-parallax="-100">
+                                        <div class="advantages-spoiler__top" style="background-image: url('img/advantages/tab-photo-2.jpg');">
+                                        </div>
+                                        <button class="advantages-spoiler__title advantages-spoiler__button cursor-hover link --active" type="button" tabindex="-1" data-spoiler></button>
+                                         <div class="advantages-spoiler__content">
+                                             <p class="advantages-spoiler__text nowheel">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum unde sit iusto dolorum, nisi ut dolores adipisci corrupti in, pariatur beatae possimus aliquam maxime illum ullam odit animi vel perspiciatis.
+                                                    Id vel voluptates tempore ipsum quis similique at dicta, facilis est ea quasi earum adipisci, quae sequi laudantium ad pariatur perspiciatis! Adipisci eaque, neque incidunt deleniti quod autem dignissimos qui.
+                                            </p>
+                                         </div>
+                                    </div>
+                                     <div class="advantages-spoiler__item" data-swiper-parallax="-100">
+                                        <div class="advantages-spoiler__top" style="background-image: url('img/advantages/tab-photo-3.jpg');">
+                                        </div>
+                                        <button class="advantages-spoiler__title advantages-spoiler__button cursor-hover link" type="button" tabindex="-1" data-spoiler></button>
+                                         <div class="advantages-spoiler__content">
+                                             <p class="advantages-spoiler__text nowheel">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum unde sit iusto dolorum, nisi ut dolores adipisci corrupti in, pariatur beatae possimus aliquam maxime illum ullam odit animi vel perspiciatis.
+                                            </p>
+                                         </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="main-page__pagination cursor-hover link"></div>
+            <div class="swiper-scrollbar"></div>
+        </main>
+    </div>
+
+    <script src="./js/app.min.js"></script>
+</body>
+
+</html>
